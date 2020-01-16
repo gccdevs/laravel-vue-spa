@@ -1,0 +1,43 @@
+.text-container {
+    text-align: none !important;
+    @media screen and (max-width: 575px) {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    @media (min-width: 1200px) {
+        max-width: 65%;
+        margin: 0 auto;
+    }
+    &--title-1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 45px;
+        font-weight: 600;
+        // border-bottom: 1px solid #bebebe;
+    }
+
+    &--title-2 {
+        margin-bottom: 15px !important;
+        padding-top: 15px;
+        padding-bottom: 5px !important;
+        font-size: 32px;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(190, 190, 190, 0.65);
+    }
+}

@@ -1,0 +1,105 @@
+{
+  "form_name": "Test form sample 1",
+  "author": 1,
+  "is_draft": true,
+  "last_modified": "2018-05-01",
+  "last_modify_user_id": 3,
+  "created_at": "2018-04-30",
+  "form_fields": {
+    "0": {
+      "id": "1",
+      "label": "Email",
+      "type": "EMAIL",
+      "placeholder": "Please enter your email address",
+      "required": true
+    },
+    "1": {
+      "id": "2",
+      "label": "First Name",
+      "type": "FIRST_NAME",
+      "required": true,
+      "placeholder": "Please enter your first name"
+    },
+    "2": {
+      "id": "3",
+      "label": "Last Name",
+      "type": "LAST_NAME",
+      "required": false,
+      "placeholder": "Please enter your last name"
+    },
+    "3": {
+      "id": "4",
+      "label": "Company Name",
+      "type": "CUSTOM_INPUT",
+      "required": false,
+      "placeholder": "Please enter your company name",
+      "require_validation": true,
+      "validation_type": "string"
+    },
+    "4": {
+      "id": "5",
+      "label": "Last time watch TV",
+      "type": "CUSTOM_DATETIMEPICKER",
+      "required": true,
+      "placeholder": "Please choose a time"
+    },
+    "5": {
+      "id": "6",
+      "label": "Graduation date",
+      "type": "CUSTOM_DATEPICKER",
+      "required": false,
+      "placeholder": "Please choose a month"
+    },
+    "6": {
+      "id": "7",
+      "label": "Who is your favourite person",
+      "type": "CUSTOM_DROPDOWN",
+      "required": true,
+      "options": {
+        "jesus": "Jesus",
+        "father": "Father",
+        "mother": "Mother",
+        "tg": "Tony Gao"
+      },
+      "multiple": true,
+      "require_validation": false,
+      "placeholder": "Please choose a month"
+    },
+    "7": {
+      "id": "8",
+      "label": "Emergency contact phone",
+      "type": "CUSTOM_INPUT",
+      "required": false,
+      "placeholder": "Please enter your contact phone",
+      "require_validation": true,
+      "validation_type": "numeric"
+    },
+    "8": {
+      "id": "9",
+      "label": "Payment",
+      "type": "PAYMENT",
+      "required": true,
+      "amount": 123.44,
+      "coupon": {
+        "ACDOIESJF": 88.88,
+        "XODFIJOOI": 34.34,
+        "aefasefaF": 0.0,
+        "AEFJIOeaf": 23.23
+      }
+    },
+    "9": {
+      "id": "10",
+      "label": "Understand and accept the terms",
+      "type": "CHECKBOX",
+      "required": true,
+      "link": "http://admin.local/terms"
+    },
+    "10": {
+      "id": "11",
+      "label": "Require custom support?",
+      "type": "CUSTOM_CHECKBOX",
+      "required": false,
+      "link": "http://admin.local/support-form"
+    }
+  }
+}
