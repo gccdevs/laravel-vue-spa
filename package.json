@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "ajv": "^6.5.0",
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "bootstrap-sass": "^3.3.7",
     "buefy": "^0.6.7",
     "bulma": "^0.7.1",
